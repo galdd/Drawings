@@ -1,0 +1,88 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:measureWithLargestChild="true"
+    android:orientation="vertical"
+    android:showDividers="beginning|middle" 
+    android:scrollbars="vertical">
+
+    <com.rickrsoft.drawings.views.MyProgressBar
+        android:id="@+id/my_progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        custom:endColor="#DA5607"
+        custom:leftText="0%"
+        custom:progress="60"
+        custom:rightText="100%"
+        custom:startColor="#efb802"
+        custom:variableText="67%" />
+
+    <!--
+         <com.rickrsoft.drawings.views.PieChart
+            android:id="@+id/Pie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_weight="100"
+            custom:showText="true"
+            custom:labelHeight="20dp"
+            custom:labelWidth="110dp"
+            custom:labelY="85dp"
+            custom:labelPosition="left"
+            custom:highlightStrength="1.12"
+            android:background="@android:color/white"
+            custom:pieRotation="0"
+            custom:labelColor="@android:color/black"
+            custom:autoCenterPointerInSlice="true"
+            custom:pointerRadius="4dp"
+            />
+    -->
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:progress="60"
+        android:progressDrawable="@drawable/layer_list_progressbar" />
+
+    <com.rickrsoft.drawings.views.SaundProgressBar
+        android:id="@+id/regularprogressbar"
+        style="@style/Widget.ProgressBar.RegularProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:progress="60" />
+
+    <com.rickrsoft.drawings.views.SaundProgressBar
+        android:id="@+id/miniprogressbar"
+        style="@style/Widget.ProgressBar.MiniProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:progress="60" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:progress="60" />
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_selector"
+        android:padding="4dp"
+        android:text="@string/reset_button" />
+
+</LinearLayout>

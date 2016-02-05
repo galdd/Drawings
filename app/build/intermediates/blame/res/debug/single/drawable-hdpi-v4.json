@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progressbar_bar.9.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-hdpi\\progressbar_bar.9.png"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progressbar_bg.9.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-hdpi\\progressbar_bg.9.png"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\miniprogressbar_pattern.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-hdpi\\miniprogressbar_pattern.png"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progressbar_pattern.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-hdpi\\progressbar_pattern.png"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\miniprogressbar_bar.9.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-hdpi\\miniprogressbar_bar.9.png"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\miniprogressbar_bg.9.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-hdpi\\miniprogressbar_bg.9.png"
+    }
+]

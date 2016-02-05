@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\miniprogressbar.xml",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable\\miniprogressbar.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layer_list_progressbar.xml",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable\\layer_list_progressbar.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button_hover.xml",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable\\bg_button_hover.xml"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button.xml",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable\\bg_button.xml"
+    }
+]

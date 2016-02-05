@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\myimage.jpg",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-mdpi\\myimage.jpg"
+    },
+    {
+        "merged": "E:\\Downloads\\CustomView\\Drawings\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "E:\\Downloads\\CustomView\\Drawings\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

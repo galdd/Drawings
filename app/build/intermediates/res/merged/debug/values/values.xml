@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="MyProgressBar_background_dark">#3a3a3a</color>
+    <color name="MyProgressBar_background_light">#8a8a8a</color>
+    <color name="MyProgressBar_border_grey">#dadada</color>
+    <color name="bluegrass">#ff96c9b5</color>
+    <color name="chartreuse">#ffb6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="slate">#ff76a9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <declare-styleable name="MyProgressBar"><attr format="color" name="startColor"/><attr format="color" name="endColor"/><attr format="color" name="shadowColor"/><attr format="string" name="leftText"/><attr format="string" name="variableText"/><attr format="string" name="rightText"/><attr format="integer" name="progress"/></declare-styleable>
+    <declare-styleable name="PieChart"><attr format="boolean" name="autoCenterPointerInSlice"/><attr format="float" name="highlightStrength"/><attr format="color" name="labelColor"/><attr format="dimension" name="labelHeight"/><attr format="enum" name="labelPosition"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="dimension" name="labelWidth"/><attr format="dimension" name="labelY"/><attr format="integer" name="pieRotation"/><attr format="dimension" name="pointerRadius"/><attr format="boolean" name="showText"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Drawings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="reset_button">Reset</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Widget"/>
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+    <style name="Widget.ProgressBar.MiniProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/miniprogressbar</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">1dip</item>
+        <item name="android:maxHeight">10dip</item>
+    </style>
+    <style name="Widget.ProgressBar.RegularProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:maxHeight">10dip</item>
+    </style>
+</resources>
